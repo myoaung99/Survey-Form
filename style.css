@@ -1,10 +1,35 @@
 body{
     text-align: center;
     height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url('image/bg.jpg');
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: cover;
 }
 
 #form-div {
+    color: white;
+    font-size: 1.2em;
+    padding: 40px 50px;
     text-align: left;
-    width: 30%;
+    width: 50%;
     margin:0 auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+header{
+    margin: 100px 0 50px 0;
+    color: wheat;
+}
+
+#title {
+    font-size: 3em;
+    font-weight: 700;
+
+}
+
+#description {
+    letter-spacing: 3px;
+    font-weight: 300;
 }
